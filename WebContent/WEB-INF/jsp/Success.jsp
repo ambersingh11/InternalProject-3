@@ -17,6 +17,7 @@
 		<td><label>Academic events</label></td>
 		<td><label>Sports events</label></td>
 		<td><label>Cultural events</label></td>
+		<td><label>Picture</label></td>
 	</tr>
 	<tr>	
 		<td>${command.rollNo }</td>
@@ -26,10 +27,11 @@
 		<td>${command.events }</td>
 		<td>${command.sports }</td>
 		<td>${command.cultural }</td>
+		<td><img src="${command.imagePath}" height="200px" width=""></img></td>
 	</tr>	
 </table>
 <br>
 <a href="adminpage">Add Another</a>
-<a href="">Home Page</a>
+<a href="logout">LOG OUT</a>
 </body>
 </html>

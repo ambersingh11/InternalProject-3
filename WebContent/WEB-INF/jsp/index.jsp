@@ -10,7 +10,7 @@
 <body>
 	<p>WELCOME!!!</p>
 	<br>
-	<a href="homescreen">Visitors Link</a>
+	<a href="departmentlist">Visitors Link</a>
 	<br>
 	<p>Admin Login</p>
 	<form:form method="POST" action="adminpage">

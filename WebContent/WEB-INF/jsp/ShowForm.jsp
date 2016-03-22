@@ -9,7 +9,7 @@
 </head>
 <body>
 	<h5>Student Form</h5>
-<form:form method="POST" action="addData">
+<form:form method="POST" action="addData" enctype="multipart/form-data">
 <table>
 	<tr>
 		<td><label>Student Roll No.</label></td>
@@ -38,6 +38,10 @@
 	<tr>
 		<td><label>Cultural Events</label></td>
 			<td><form:input path="cultural"/></td>
+	</tr>
+	<tr>
+		<td><label>Upload Pic</label></td>
+		<td><input name="image" type="file"/></td>
 	</tr>
 	<tr>	
 		<td><input type="submit" value="Add"></td>

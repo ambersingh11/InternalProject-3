@@ -3,6 +3,8 @@ package com.bit.controllers;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,6 +16,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.SessionAttributes;
+import org.springframework.web.bind.support.SessionStatus;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.bit.dao.AdminDao;
@@ -30,6 +33,8 @@ public class AdminController {
 	private ModelAndView mdl;
 	@Autowired
 	private Student student;
+	@Autowired
+	private Admin admin;
 	@RequestMapping(value="/adminpage",method=RequestMethod.POST)
 	public ModelAndView returnForm(@Valid @ModelAttribute("admin") Admin admin,BindingResult result){
 		if(!result.hasErrors()){
@@ -59,5 +64,11 @@ public class AdminController {
 		departments.add("Electronics");
 		departments.add("Civil");
 		return departments;
+	}
+	@RequestMapping("/logout")
+	public String logOut(SessionStatus status,Model mdl){
+		status.setComplete();
+		mdl.addAttribute("command",admin);
+		return "index";
 	}
 }

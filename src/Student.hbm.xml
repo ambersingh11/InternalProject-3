@@ -29,5 +29,8 @@
         <property name="grade" type="double">
         	<column name="GRADE"/>
         </property>
+        <property name="imagePath" type="java.lang.String">
+        	<column name="IMAGEPATH"/>
+        </property>
     </class>
 </hibernate-mapping>

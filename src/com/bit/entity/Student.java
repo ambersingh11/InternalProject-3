@@ -12,12 +12,14 @@ public class Student {
 	private double sports;
 	private double cultural;
 	private double grade;
+	private String imagePath;
 	public Student() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
+
 	public Student(long rollNo, String name, String department, double academics, double events, double sports,
-			double cultural) {
+			double cultural, double grade, String imagePath) {
 		super();
 		this.rollNo = rollNo;
 		this.name = name;
@@ -26,7 +28,10 @@ public class Student {
 		this.events = events;
 		this.sports = sports;
 		this.cultural = cultural;
+		this.grade = grade;
+		this.imagePath = imagePath;
 	}
+
 	public long getRollNo() {
 		return rollNo;
 	}
@@ -75,6 +80,12 @@ public class Student {
 	}
 	public void setGrade(double grade) {
 		this.grade = grade;
+	}
+	public String getImagePath() {
+		return imagePath;
+	}
+	public void setImagePath(String imagePath) {
+		this.imagePath = imagePath;
 	}
 	public double calcPerformance(){
 		double score=0.0;

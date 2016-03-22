@@ -3,10 +3,7 @@ package com.bit.dao;
 import java.io.Serializable;
 import java.util.List;
 
-import org.hibernate.Criteria;
 import org.hibernate.Query;
-import org.hibernate.criterion.Order;
-import org.hibernate.criterion.Projections;
 import org.springframework.orm.hibernate3.support.HibernateDaoSupport;
 
 import com.bit.entity.Student;
@@ -36,7 +33,7 @@ public class StudentDao extends HibernateDaoSupport implements MyDao<Student> {
 		// TODO Auto-generated method stub
 		return null;
 	}
-
+    
 	@Override
 	public boolean delete(Object obj) {
 		// TODO Auto-generated method stub
@@ -46,6 +43,7 @@ public class StudentDao extends HibernateDaoSupport implements MyDao<Student> {
 		String hql="FROM Student S WHERE S.department='"+t+"' ORDER BY S.grade DESC";
 		Query query = getSession().createQuery(hql);
 		query.setMaxResults(3);
+		
 		List<Student> results = (List<Student>)query.list();
 		return results;
 	}

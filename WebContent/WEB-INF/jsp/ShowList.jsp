@@ -20,6 +20,7 @@
 		<td><label>Sports events</label></td>
 		<td><label>Cultural events</label></td>
 		<td><label>Grade</label></td>
+		<td><label>Picture</label></td>
 	</tr>
 
 <c:forEach items="${student}" var="student">
@@ -32,7 +33,7 @@
 		<td>${student.sports }</td>
 		<td>${student.cultural }</td>
 		<td>${student.grade }</td>
-
+		<td><img src="${student.imagePath}" height="200px" width=""></img></td>
 </c:forEach>	
 </table>
 <a href="../">Home Page</a>
