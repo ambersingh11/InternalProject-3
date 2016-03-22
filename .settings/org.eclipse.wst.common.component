@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="InternalProject3">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="commons-logging-1.2.1.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/asi260/Documents/spring-framework-4.1.5.RELEASE-dist/spring-framework-4.1.5.RELEASE/libs/core/commons-logging-1.2.1.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="log4j-1.2.14.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/asi260/Documents/spring-framework-4.1.5.RELEASE-dist/spring-framework-4.1.5.RELEASE/libs/validation/validation/log4j-1.2.14.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="slf4j-api-1.5.6.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/asi260/Documents/spring-framework-4.1.5.RELEASE-dist/spring-framework-4.1.5.RELEASE/libs/validation/validation/slf4j-api-1.5.6.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate-validator-4.0.2.GA.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/asi260/Documents/spring-framework-4.1.5.RELEASE-dist/spring-framework-4.1.5.RELEASE/libs/validation/validation/hibernate-validator-4.0.2.GA.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-fileupload-1.1.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/asi260/Documents/spring-framework-4.1.5.RELEASE-dist/spring-framework-4.1.5.RELEASE/libs/validation/validation/commons-fileupload-1.1.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="validation-api-1.0.0.GA.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/asi260/Documents/spring-framework-4.1.5.RELEASE-dist/spring-framework-4.1.5.RELEASE/libs/validation/validation/validation-api-1.0.0.GA.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-expression-4.1.5.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/asi260/Documents/spring-framework-4.1.5.RELEASE-dist/spring-framework-4.1.5.RELEASE/libs/core/spring-expression-4.1.5.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-webmvc-4.1.5.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/asi260/Documents/spring-framework-4.1.5.RELEASE-dist/spring-framework-4.1.5.RELEASE/libs/mvc/spring-webmvc-4.1.5.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-beans-4.1.5.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/asi260/Documents/spring-framework-4.1.5.RELEASE-dist/spring-framework-4.1.5.RELEASE/libs/core/spring-beans-4.1.5.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-context-4.1.5.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/asi260/Documents/spring-framework-4.1.5.RELEASE-dist/spring-framework-4.1.5.RELEASE/libs/core/spring-context-4.1.5.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-io-1.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/asi260/Documents/spring-framework-4.1.5.RELEASE-dist/spring-framework-4.1.5.RELEASE/libs/validation/validation/commons-io-1.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-web-4.1.5.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/asi260/Documents/spring-framework-4.1.5.RELEASE-dist/spring-framework-4.1.5.RELEASE/libs/mvc/spring-web-4.1.5.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-core-4.1.5.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/asi260/Documents/spring-framework-4.1.5.RELEASE-dist/spring-framework-4.1.5.RELEASE/libs/core/spring-core-4.1.5.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="slf4j-log4j12-1.5.6.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/asi260/Documents/spring-framework-4.1.5.RELEASE-dist/spring-framework-4.1.5.RELEASE/libs/validation/validation/slf4j-log4j12-1.5.6.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-jdbc-4.1.5.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/asi260/Documents/spring-framework-4.1.5.RELEASE-dist/spring-framework-4.1.5.RELEASE/libs/jdbc/spring-jdbc-4.1.5.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-orm-4.1.5.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/asi260/Documents/spring-framework-4.1.5.RELEASE-dist/spring-framework-4.1.5.RELEASE/libs/jdbc/spring-orm-4.1.5.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-aop-4.1.5.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/asi260/Documents/spring-framework-4.1.5.RELEASE-dist/spring-framework-4.1.5.RELEASE/libs/jdbc/spring-aop-4.1.5.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="spring-tx-4.1.5.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/asi260/Documents/spring-framework-4.1.5.RELEASE-dist/spring-framework-4.1.5.RELEASE/libs/jdbc/spring-tx-4.1.5.RELEASE.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javassist-3.12.0.GA.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/asi260/Downloads/hibernate-distribution-3.6.10.Final-dist/hibernate-distribution-3.6.10.Final/lib/required/javassist-3.12.0.GA.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jta-1.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/asi260/Downloads/hibernate-distribution-3.6.10.Final-dist/hibernate-distribution-3.6.10.Final/lib/required/jta-1.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="backport-util-concurrent.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/asi260/Downloads/requiredLib/backport-util-concurrent.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="slf4j-api-1.6.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/asi260/Downloads/hibernate-distribution-3.6.10.Final-dist/hibernate-distribution-3.6.10.Final/lib/required/slf4j-api-1.6.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javassist-3.12.0.GA.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/asi260/Downloads/hibernate-distribution-3.6.10.Final-dist/hibernate-distribution-3.6.10.Final/lib/bytecode/javassist/javassist-3.12.0.GA.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="cglib-2.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/asi260/Downloads/hibernate-distribution-3.6.10.Final-dist/hibernate-distribution-3.6.10.Final/lib/bytecode/cglib/cglib-2.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="slf4j-api-1.7.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/asi260/Downloads/requiredLib/slf4j-api-1.7.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="antlr-2.7.6.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/asi260/Downloads/hibernate-distribution-3.6.10.Final-dist/hibernate-distribution-3.6.10.Final/lib/required/antlr-2.7.6.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-collections-3.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/asi260/Downloads/hibernate-distribution-3.6.10.Final-dist/hibernate-distribution-3.6.10.Final/lib/required/commons-collections-3.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="slf4j-nop-1.7.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/asi260/Downloads/requiredLib/slf4j-nop-1.7.2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ehcache-1.5.0.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/asi260/Downloads/requiredLib/ehcache-1.5.0.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="dom4j-1.6.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/asi260/Downloads/hibernate-distribution-3.6.10.Final-dist/hibernate-distribution-3.6.10.Final/lib/required/dom4j-1.6.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="c3p0-0.9.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/asi260/Downloads/hibernate-distribution-3.6.10.Final-dist/hibernate-distribution-3.6.10.Final/lib/optional/c3p0/c3p0-0.9.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="oscache-2.1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/asi260/Downloads/hibernate-distribution-3.6.10.Final-dist/hibernate-distribution-3.6.10.Final/lib/optional/oscache/oscache-2.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="proxool-0.8.3.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/asi260/Downloads/hibernate-distribution-3.6.10.Final-dist/hibernate-distribution-3.6.10.Final/lib/optional/proxool/proxool-0.8.3.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jbosscache-core-3.2.1.GA.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/asi260/Downloads/hibernate-distribution-3.6.10.Final-dist/hibernate-distribution-3.6.10.Final/lib/optional/jbosscache/jbosscache-core-3.2.1.GA.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="swarmcache-1.0RC2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/asi260/Downloads/hibernate-distribution-3.6.10.Final-dist/hibernate-distribution-3.6.10.Final/lib/optional/swarmcache/swarmcache-1.0RC2.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="infinispan-core-4.2.1.CR1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/asi260/Downloads/hibernate-distribution-3.6.10.Final-dist/hibernate-distribution-3.6.10.Final/lib/optional/infinispan/infinispan-core-4.2.1.CR1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate-jpa-2.0-api-1.0.1.Final.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/asi260/Downloads/hibernate-distribution-3.6.10.Final-dist/hibernate-distribution-3.6.10.Final/lib/jpa/hibernate-jpa-2.0-api-1.0.1.Final.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate3.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/asi260/Downloads/hibernate-distribution-3.6.10.Final-dist/hibernate-distribution-3.6.10.Final/hibernate3.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="InternalProject3"/>
+        <property name="java-output-path" value="/InternalProject3/build/classes"/>
+    </wb-module>
+</project-modules>
